@@ -1,0 +1,96 @@
+body {
+    margin: auto;
+    max-width: 800px;
+    max-height: 600px;
+}
+
+.container {
+    position: relative;
+    border: 2px solid red;
+    background-color: rgb(163, 214, 245);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    max-height: 600px;
+    max-width: 800px;
+}
+
+.header {
+    border: 2px solid brown;
+    background-color: rgb(163, 214, 245);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    max-height: 70px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container>div {
+    padding: 10px;
+    font-size: 20px;
+}
+
+#circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background: rgb(127, 23, 31);
+    padding: 25px;
+    margin-top: 10px;
+}
+
+.nameandtime {
+    overflow-y: scroll;
+    height: 512px;
+}
+
+.time {
+    color: green;
+    display: flex;
+}
+
+.button {
+    background-color: rgb(42, 130, 165);
+    display: flex;
+    justify-self: flex-end;
+}
+
+.close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+}
+
+button {
+    background-color: darkgray;
+    border-radius: 5px;
+    border-color: brown;
+    float: right;
+}
+
+.message {
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    flex-direction: row;
+}
+
+.msgbox {
+    position: relative;
+    border: 2px solid greenyellow;
+    background-color: yellowgreen;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+    width: 530px;
+}
+
+span {
+    color: rgb(165, 42, 73);
+}
